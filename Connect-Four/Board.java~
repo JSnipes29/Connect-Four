@@ -1,0 +1,19 @@
+public class Board
+{
+  private char[][] board;
+  
+  public Board()
+  {
+    board = new char[6][7];
+  
+  
+  }
+  public void printBoard()
+  {
+    
+  
+  }
+
+
+
+}

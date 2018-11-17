@@ -1,0 +1,25 @@
+public class Game
+{
+  private Player playerOne;
+  private Player playerTwo;
+  private Board board;
+  public Game(Board board, Player p1, Player p2)
+  {
+    this.board = board;
+    playerOne = p1;
+    playerTwo = p2;
+    
+  
+  }
+  public void instructions()
+  {
+    System.out.println("Type the number where you would like to go.");
+    board.instructBoard();
+    board.printBoard();
+    
+    
+  }
+
+
+
+}

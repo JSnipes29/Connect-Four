@@ -1,0 +1,22 @@
+public class Functions
+{
+  public static boolean tryParseInt(String number)
+  {
+    try
+    {
+      int test = Integer.parseInt(number);
+    
+    }
+    catch(Exception e)
+    {
+      return false;
+    
+    }
+    
+    return true;
+  
+  
+  }
+
+
+}
